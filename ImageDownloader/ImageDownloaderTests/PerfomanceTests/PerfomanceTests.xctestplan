@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "6723CAE0-FA3D-4A34-8C8C-D73F0905273B",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "DownloadImageModelTests",
+        "DownloadImageModelTests\/testClearCache()",
+        "DownloadImageModelTests\/testImageDownloadFromApi()",
+        "DownloadImageModelTests\/testImageFetchedFromCache()",
+        "DownloadImageModelTests\/testImageInsertedInCache()",
+        "ImageCacheUnitTest",
+        "ImageCacheUnitTest\/testCacheInsert()",
+        "ImageCacheUnitTest\/testCacheRemove()",
+        "ImageCacheUnitTest\/testUnknownKey()"
+      ],
+      "target" : {
+        "containerPath" : "container:ImageDownloader.xcodeproj",
+        "identifier" : "FEC160002DE05C9300A113BF",
+        "name" : "ImageDownloaderTests"
+      }
+    }
+  ],
+  "version" : 1
+}

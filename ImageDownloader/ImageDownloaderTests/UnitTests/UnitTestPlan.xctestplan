@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "DA0AA396-57D5-4099-A050-5D308A386743",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "CachePerfomaceTests",
+        "CachePerfomaceTests\/testInMemoryCacheInsertPerformance()",
+        "CachePerfomaceTests\/testInMemoryCacheRemovePerformance()"
+      ],
+      "target" : {
+        "containerPath" : "container:ImageDownloader.xcodeproj",
+        "identifier" : "FEC160002DE05C9300A113BF",
+        "name" : "ImageDownloaderTests"
+      }
+    }
+  ],
+  "version" : 1
+}
