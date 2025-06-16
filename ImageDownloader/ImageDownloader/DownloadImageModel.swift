@@ -47,7 +47,6 @@ final class DownloadImageModel {
     
     private func downloadImage(urlString: String) async throws -> UIImage {
         if let task = tasksInProgress[urlString] {
-            print("Download in progress. Wait for value.")
             return try await task.value
         }
         
