@@ -1,1 +1,1 @@
-Testing resource download from the concurrent context. Testing different image cache perfomance.
+Download resource in thread safe style. Test different types of image cache.
